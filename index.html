@@ -30,6 +30,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -47,7 +48,7 @@
             <div class="android-navigation mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sobre</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Membros</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Formulário</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contato</a>
             </div>
           </div>
         </div>
@@ -124,16 +125,49 @@
         <div class="contact-section">
           <div class="contact-band">
             <div class="contact-band-text">
-              <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
+              <div class="mdl-typography--display-2 mdl-typography--font-thin">Contato</div>
               <p class="mdl-typography--headline mdl-typography--font-thin">
-                Android works perfectly with your favourite apps like Google Maps,
-                Calendar and YouTube.
+                Envie sugestões, comentários ou reclamações. <br/>
+                Não se preoculpe, nenhuma informação pessoal será divulgada!
               </p>
-              <p>
-                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="">
-                  See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
-                </a>
-              </p>
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="nome" type="text" class="validate">
+                      <label for="nome">Nome</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="matricula" type="text" class="validate">
+                      <label for="matricula">Matricula</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="assunto" type="text" class="validate">
+                      <label for="assunto">Assunto</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="descricao" class="materialize-textarea"></textarea>
+                          <label for="descricao">Descrição</label>
+                        </div>
+                  </div>
+                  <div class="row right">
+                    <a class="waves-effect waves-light btn grey">Limpar</a>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>

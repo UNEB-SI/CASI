@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	  	<title>CASI - Centro Acadêmico de Sistemas de Informação</title>
+	</head>
+	<body>
+		<div style="text-align: center;">
+		<h1 style="font-family: 'Raleway', sans-serif;">Site em construção... <div id="number"></div> </h1>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript">
+	const SIZE = 5;
+	var n = 5;
+	var l = document.getElementById("number");
+	window.setInterval(function(){
+	  l.innerHTML = "Redirecionando em: " + n;
+	  n--;
+	  if (n === 0) {
+	  	window.location.href = "https://www.facebook.com/casitecnologia";
+	  }	
+	},1000);
+</script>

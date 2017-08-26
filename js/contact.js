@@ -7,9 +7,13 @@ function sendForm() {
 			sender_subject: $("#assunto").val(),
 			sender_message: $("#descricao").val()
 	}).then(function(response) {
-	   console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+	   	var notification = document.querySelector('.mdl-js-snackbar');
+		notification.MaterialSnackbar.showSnackbar({message: 'Enviado com sucesso'});
+		var frm = document.getElementsByName('form')[0];
+		frm.reset();
 	}, function(err) {
-	   console.log("FAILED. error=", err);
+	   	var notification = document.querySelector('.mdl-js-snackbar');
+		notification.MaterialSnackbar.showSnackbar({message: 'Erro ao enviar'});
 	});
 }
 

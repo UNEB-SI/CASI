@@ -57,6 +57,28 @@ a img{
   margin: 0 !important;
 }
 
+/*Home Section*/
+.img-home{
+  height: 550px;
+  width: 100%;
+}
+.title-home{
+  font-weight: bold;
+  font-size: 35px;
+}
+.subtitle-home{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subtitle-link{
+  text-decoration: none;
+  color: white;
+}
+
+.subtitle-link:hover{
+  color: white;
+}
 
 .mdl-textfield--expandable {
   width: auto;

@@ -17,10 +17,11 @@
 	var n = 5;
 	var l = document.getElementById("number");
 	window.setInterval(function(){
-	  l.innerHTML = "Redirecionando em: " + n;
-	  n--;
 	  if (n === 0) {
 	  	window.location.href = "https://www.facebook.com/casitecnologia";
-	  }	
+	  } else {
+		l.innerHTML = "Redirecionando em: " + n;
+	  	n--;	  
+	  }
 	},1000);
 </script>

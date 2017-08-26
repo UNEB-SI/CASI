@@ -57,6 +57,28 @@ a img{
   margin: 0 !important;
 }
 
+/*Home Section*/
+.img-home{
+  height: 550px;
+  width: 100%;
+}
+.title-home{
+  font-weight: bold;
+  font-size: 35px;
+}
+.subtitle-home{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subtitle-link{
+  text-decoration: none;
+  color: white;
+}
+
+.subtitle-link:hover{
+  color: white;
+}
 
 .mdl-textfield--expandable {
   width: auto;
@@ -318,7 +340,7 @@ a img{
 .about-section {
   position: relative;
   background-size: cover;
-  height: 220px;
+  height: 520px;
 }
 
 .about-band {
@@ -327,6 +349,12 @@ a img{
   width: 100%;
   text-align: center;
   background-color: #37474f;
+}
+
+.tittle-about{
+  font-weight: bold;
+  margin-bottom: 20px; 
+  color: #49C49E; 
 }
 
 .about-band-text {

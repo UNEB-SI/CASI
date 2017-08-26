@@ -245,7 +245,6 @@ a img{
   }
 
 .android-screen-section {
-  position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -335,35 +334,6 @@ a img{
     height: 300px;
     z-index: 1;
   }
-
-
-.about-section {
-  position: relative;
-  background-size: cover;
-  height: 520px;
-}
-
-.about-band {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #37474f;
-}
-
-.tittle-about{
-  font-weight: bold;
-  margin-bottom: 20px; 
-  color: #49C49E; 
-}
-
-.about-band-text {
-  max-width: 800px;
-  margin-left: 25%;
-  padding: 24px;
-  text-align: left;
-  color: white;
-}
 
   .android-wear-band-text p {
     padding-top: 8px;

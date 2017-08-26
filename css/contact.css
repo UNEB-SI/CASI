@@ -42,15 +42,11 @@
 }
 
 .contact-section {
-  position: relative;
-  margin-left: -50px;
   background-size: cover;
-  height: 700px;
+  margin-left: -100px;
 }
 
 .contact-band {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
   background-color: #37474f;
@@ -59,14 +55,19 @@
 .contact-band-text {
   max-width: 800px;
   margin-left: 25%;
+  margin-right: 10%;
   padding: 24px;
+  padding-bottom: 72px;
   text-align: left;
   color: white;
 }
 
 .contact-form {
-  margin-left: -10px;
-  padding-right: 110px;
+  margin-left: -20px;
+}
+
+.margin5 {
+  margin: 5px;
 }
 
 button,

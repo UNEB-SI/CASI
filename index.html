@@ -55,7 +55,7 @@
             <div class="android-navigation mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sobre</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Membros</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contato</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#contact">Contato</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" id="dropdown-redes-sociais"> Redes sociais</a>
             </div>
           </div>
@@ -199,7 +199,8 @@
         </div>
 
         <!-- Contact -->
-        <div class="contact-section">
+        <div id="contact-section" class="contact-section">
+          <a name="contact"></a>
           <div class="contact-band">
             <div class="contact-band-text">
               <div class="mdl-typography--display-2 mdl-typography--font-thin">Contato</div>
@@ -207,15 +208,15 @@
                 Envie sugestões, comentários ou reclamações. <br/>
                 Não se preoculpe, nenhuma informação pessoal será divulgada!
               </p>
-              <div class="row">
-                <form class="col s12">
+              <div class="contact-form">
+                <form name="form" class="col s12">
                   <div class="row">
                     <div class="input-field col s6">
                       <input id="nome" type="text" class="validate">
                       <label for="nome">Nome</label>
                     </div>
                     <div class="input-field col s6">
-                      <input id="matricula" type="text" class="validate">
+                      <input id="matricula" type="number" class="validate">
                       <label for="matricula">Matricula</label>
                     </div>
                   </div>
@@ -238,10 +239,8 @@
                         </div>
                   </div>
                   <div class="row right">
-                    <a class="waves-effect waves-light btn grey">Limpar</a>
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
-                      <i class="material-icons right">send</i>
-                    </button>
+                    <input type="button" onclick="clearForm();" value="Limpar" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored grey">
+                    <input type="button" onclick="sendForm();" value="Enviar" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored teal">
                   </div>
                 </form>
               </div>
@@ -299,11 +298,26 @@
         </footer>
       </div>
     </div>
-    <a href="#" target="_self" id="contact-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Contato</a>
+    <a href="#contact" target="_self" id="contact-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect teal mdl-color-text--accent-contrast">Contato</a>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <!-- Script -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript">
+      /*function customCallbackFunc() {
+        console.log("OI");
+        //$("#contact-button").hide();
+        $("#contact-button").show();
+        //$("#contact-button").css("display", "none");
+      } 
+      var options = [
+        {selector: '#contact-section', offset: 200, callback: customCallbackFunc}
+      ];
+      Materialize.scrollFire(options);*/
+
+    </script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->

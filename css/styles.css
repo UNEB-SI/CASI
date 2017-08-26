@@ -554,3 +554,8 @@ a img{
     display: none;
   }
 }
+.tittle-about{
+  font-weight: bold;
+  margin-bottom: 20px; 
+  color: #49C49E; 
+}

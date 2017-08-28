@@ -440,38 +440,38 @@ a img{
     font-size: 16px;
   }
 
-.android-footer {
+.footer {
   background-color: #fafafa;
   position: relative;
 }
 
-  .android-footer a:hover {
-    color: #8bc34a;
+  .footer a:hover {
+    color: #00d6a6;
   }
 
-  .android-footer .mdl-mega-footer--top-section::after {
+  .footer .mdl-mega-footer--top-section::after {
     border-bottom: none;
   }
 
-  .android-footer .mdl-mega-footer--middle-section::after {
+  .footer .mdl-mega-footer--middle-section::after {
     border-bottom: none;
   }
 
-  .android-footer .mdl-mega-footer--bottom-section {
+  .footer .mdl-mega-footer--bottom-section {
     position: relative;
   }
 
-  .android-footer .mdl-mega-footer--bottom-section a {
+  .footer .mdl-mega-footer--bottom-section a {
     margin-right: 2em;
   }
 
-  .android-footer .mdl-mega-footer--right-section a .material-icons {
+  .footer .mdl-mega-footer--right-section a .material-icons {
     position: relative;
     top: 6px;
   }
 
 
-.android-link-menu:hover {
+.link-menu:hover {
   cursor: pointer;
 }
 

@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/navbar-custom.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/members.css">
     <link rel="stylesheet" href="css/contact.css">
   </head>
   <body>
@@ -44,10 +45,10 @@
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span style="color: black;" class="android-title mdl-layout-title">
-             <a href=""><img class="android-logo-image" src="images/logo.png"></a>
+             <a href=""><img class="android-logo-image" src="img/logo.png"></a>
           </span>
           <span class="android-mobile-title mdl-layout-title">
-            <a href=""><img class="android-logo-image"  src="images/logo.png"></a>
+            <a href=""><img class="android-logo-image"  src="img/logo.png"></a>
           </span>
           <div class="android-header-spacer mdl-layout-spacer"></div>
           <div class="android-navigation-container">
@@ -67,7 +68,7 @@
       </ul>  
       <div class="android-drawer mdl-layout__drawer">
         <span class="mdl-layout-title">
-          <img class="android-logo-image" src="images/logo_white.png">
+          <img class="android-logo-image" src="img/logo_white.png">
         </span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="">Sobre</a>
@@ -85,6 +86,7 @@
       <div class="android-content mdl-layout__content">
 
         <!-- Home -->
+        <a name="top"></a>
         <!--Carousel Wrapper-->
         <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
           <!--Indicators-->
@@ -98,7 +100,7 @@
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active" style="width: 100%;">
               <div class="view hm-black-light">
-                  <img class="d-block w-100 img-home" src="images/estudantes-2.jpg" alt="First slide">
+                  <img class="d-block w-100 img-home" src="img/estudantes-2.jpg" alt="First slide">
                   <div class="mask"></div>
               </div>
               <div class="carousel-caption">
@@ -109,7 +111,7 @@
             <div class="carousel-item">
               <!--Mask color-->
               <div class="view hm-black-slight">
-                  <img class="d-block w-100 img-home" src="images/infouneb.png" alt="Second slide">
+                  <img class="d-block w-100 img-home" src="img/infouneb.png" alt="Second slide">
                   <div class="mask"></div>
               </div>
               <div class="carousel-caption">
@@ -120,7 +122,7 @@
             <div class="carousel-item">
               <!--Mask color-->
               <div class="view hm-black-slight">
-                <img class="d-block w-100 img-home" src="images/suggestion.png" alt="Third slide">
+                <img class="d-block w-100 img-home" src="img/suggestion.png" alt="Third slide">
                 <div class="mask"></div>
               </div>
               <div class="carousel-caption">
@@ -156,9 +158,160 @@
         </div>        
        
         <!-- Members -->
-        <div style="margin-top: 20px; margin-bottom: 20px;">
-        <a name="membros"></a>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</div>
-
+        <div id="members-section">
+          <a name="membros"></a>
+          <div class="mdl-typography--display-2 mdl-typography--font-thin center">Membros</div>
+          <table id="members-table" align="center">
+            <!--Cargos-->
+            <tr>
+              <!--Jeferson-->
+              <td class="members-table__column">
+                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__supporting-text">
+                    <hgroup>
+                      <h1 class="members_name"><strong>Jeferson</strong> Almeida <br/></h1>
+                      <h2 class="members_job"><strong>Presidente<br/></h2>
+                    </hgroup>
+                    <div class="div"></div>
+                    <div>
+                      <div id="members_icons" class="right"> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Facebook.svg"></i>
+                        </a> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Linkedin.svg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <!--Mateus-->
+              <td class="members-table__column">
+                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__supporting-text">
+                    <hgroup>
+                      <h1 class="members_name"><strong>Mateus</strong> Nascimento <br/></h1>
+                      <h2 class="members_job"><strong>Vice Presidente<br/></h2>
+                    </hgroup>
+                    <div class="div"></div>
+                    <div>
+                      <div id="members_icons" class="right"> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Facebook.svg"></i>
+                        </a> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Linkedin.svg"></i>
+                        </a>
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Github.svg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <!---->
+              <td class="members-table__column">
+                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__supporting-text">
+                    <hgroup>
+                      <h1 class="members_name"><strong>Diego</strong> Malta <br/></h1>
+                      <h2 class="members_job"><strong>Secretário<br/></h2>
+                    </hgroup>
+                    <div class="div"></div>
+                    <div>
+                      <div id="members_icons" class="right"> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Facebook.svg"></i>
+                        </a> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Linkedin.svg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <!--Suplentes-->
+              <!--Ingrid-->
+              <td class="members-table__column">
+                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__supporting-text">
+                    <hgroup>
+                      <h1 class="members_name"><strong>Ingrid</strong> Cruz <br/></h1>
+                      <h2 class="members_job"><strong>Suplente<br/></h2>
+                    </hgroup>
+                    <div class="div"></div>
+                    <div>
+                      <div id="members_icons" class="right"> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Facebook.svg"></i>
+                        </a> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Linkedin.svg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <!--Diôgo-->
+              <td class="members-table__column">
+                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__supporting-text">
+                    <hgroup>
+                      <h1 class="members_name"><strong>José</strong> Diôgo <br/></h1>
+                      <h2 class="members_job"><strong>Suplente<br/></h2>
+                    </hgroup>
+                    <div class="div"></div>
+                    <div>
+                      <div id="members_icons" class="right"> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Facebook.svg"></i>
+                        </a> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Linkedin.svg"></i>
+                        </a>
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Github.svg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <!---->
+              <td class="members-table__column">
+                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__supporting-text">
+                    <hgroup>
+                      <h1 class="members_name"><strong>Henrique</strong> Pacheco <br/></h1>
+                      <h2 class="members_job"><strong>Suplente<br/></h2>
+                    </hgroup>
+                    <div class="div"></div>
+                    <div>
+                      <div id="members_icons" class="right"> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Facebook.svg"></i>
+                        </a> 
+                        <a target="_blank" href="#">
+                          <img class="members_icon" src="img/svg/Linkedin.svg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
 
         <!-- Contact -->
         <div id="contact-section" class="contact-section">

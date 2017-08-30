@@ -33,16 +33,6 @@ body {
   margin: 0;
 }
 
-#contact-button {
-  position: fixed;
-  display: block;
-  right: 0;
-  bottom: 0;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  z-index: 900;
-}
-
 /* Disable ugly boxes around images in IE10 */
 a img{
   border: 0px;
@@ -255,7 +245,6 @@ a img{
   }
 
 .android-screen-section {
-  position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -345,51 +334,6 @@ a img{
     height: 300px;
     z-index: 1;
   }
-
-
-.about-section {
-  position: relative;
-  background-size: cover;
-  height: 220px;
-}
-
-.about-band {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #37474f;
-}
-
-.about-band-text {
-  max-width: 800px;
-  margin-left: 25%;
-  padding: 24px;
-  text-align: left;
-  color: white;
-}
-
-.contact-section {
-  position: relative;
-  background-size: cover;
-  height: 220px;
-}
-
-.contact-band {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #37474f;
-}
-
-.contact-band-text {
-  max-width: 800px;
-  margin-left: 25%;
-  padding: 24px;
-  text-align: left;
-  color: white;
-}
 
   .android-wear-band-text p {
     padding-top: 8px;
@@ -496,38 +440,38 @@ a img{
     font-size: 16px;
   }
 
-.android-footer {
+.footer {
   background-color: #fafafa;
   position: relative;
 }
 
-  .android-footer a:hover {
-    color: #8bc34a;
+  .footer a:hover {
+    color: #00d6a6;
   }
 
-  .android-footer .mdl-mega-footer--top-section::after {
+  .footer .mdl-mega-footer--top-section::after {
     border-bottom: none;
   }
 
-  .android-footer .mdl-mega-footer--middle-section::after {
+  .footer .mdl-mega-footer--middle-section::after {
     border-bottom: none;
   }
 
-  .android-footer .mdl-mega-footer--bottom-section {
+  .footer .mdl-mega-footer--bottom-section {
     position: relative;
   }
 
-  .android-footer .mdl-mega-footer--bottom-section a {
+  .footer .mdl-mega-footer--bottom-section a {
     margin-right: 2em;
   }
 
-  .android-footer .mdl-mega-footer--right-section a .material-icons {
+  .footer .mdl-mega-footer--right-section a .material-icons {
     position: relative;
     top: 6px;
   }
 
 
-.android-link-menu:hover {
+.link-menu:hover {
   cursor: pointer;
 }
 
@@ -607,4 +551,75 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+}
+
+.teal {
+  background-color: #00d6a6 !important;
+}
+
+.grey {
+  background-color: #9e9e9e !important;
+}
+
+.blue-dark {
+  background-color: #37474f !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.center, .center-align {
+  text-align: center;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .col {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0.75rem;
+  min-height: 1px;
+}
+
+.row .col[class*="push-"], .row .col[class*="pull-"] {
+  position: relative;
+}
+
+.row .col.s6 {
+  width: 50%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.row .col.s12 {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }

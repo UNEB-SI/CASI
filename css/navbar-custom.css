@@ -6,9 +6,6 @@
 .android-drawer span.mdl-navigation__link.mdl-navigation__link {
     color: #00d6a6;
 }
-
-
-
-  .android-navigation .mdl-navigation__link:hover {
-    border-bottom: 4px solid #00d6a6;
-  }
+.android-navigation .mdl-navigation__link:hover {
+	border-bottom: 4px solid #00d6a6;
+}

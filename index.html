@@ -38,6 +38,9 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/members.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -53,32 +56,36 @@
           <div class="android-header-spacer mdl-layout-spacer"></div>
           <div class="android-navigation-container">
             <div class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#sobre">Quem somos</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#membros">Membros</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#contact">Contato</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#about-section">Quem somos</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#members-section">Membros</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#contact-section">Contato</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#" id="dropdown-redes-sociais"> Redes sociais</a>
             </div>
           </div>
         </div>
       </div>
       <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="dropdown-redes-sociais">
-        <a class="mdl-menu__item" href="https://www.facebook.com/casitecnologia">Facebook</a>
-        <li disabled class="mdl-menu__item">Twitter</li>
-        <li disabled class="mdl-menu__item">Instagram</li>
+        <a class="mdl-menu__item" href="https://www.facebook.com/casitecnologia"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+        <a class="mdl-menu__item" href="https://www.flickr.com/photos/infouneb/"><i class="fa fa-flickr" aria-hidden="true"></i> Flickr</a>
+        
+        <!--<li disabled class="mdl-menu__item">Twitter</li>
+        <li disabled class="mdl-menu__item">Instagram</li>-->
       </ul>  
       <div class="android-drawer mdl-layout__drawer">
         <span class="mdl-layout-title">
           <img class="android-logo-image" src="img/logo_white.png">
         </span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Sobre</a>
-          <a class="mdl-navigation__link" href="">Membros</a>
-          <a class="mdl-navigation__link" href="">Formulário</a>
+          <a class="mdl-navigation__link" href="#about-section">Quem somos</a>
+          <a class="mdl-navigation__link" href="#members-section">Membros</a>
+          <a class="mdl-navigation__link" href="#contact-section">Contato</a>
           <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Redes Sociais</span>
-          <a class="mdl-navigation__link" href="https://www.facebook.com/casitecnologia">Facebook</a>
-          <a class="mdl-navigation__link" href="">Twitter</a>
-          <a class="mdl-navigation__link" href="">Instagram</a>
+          <span class="mdl-navigation__link" href=""><b>Redes Sociais</b></span>
+          <a class="mdl-navigation__link" href="https://www.facebook.com/casitecnologia"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+          <a class="mdl-navigation__link" href="https://www.flickr.com/photos/infouneb/"><i class="fa fa-flickr" aria-hidden="true"></i> Flickr</a>
+          
+          <!--<a class="mdl-navigation__link" href="">Twitter</a>
+          <a class="mdl-navigation__link" href="">Instagram</a> -->
         </nav>
       </div>
 
@@ -146,7 +153,7 @@
         <!--/.Carousel Wrapper-->
         <!--<a name="top"></a>
         <!-- About -->
-        <div class="about-section">
+        <div id="about-section" class="about-section">
           <div class="about-band">
             <div class="about-band-text">
               <a name="sobre"></a>

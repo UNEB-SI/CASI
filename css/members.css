@@ -15,15 +15,21 @@
   	margin: 15px;
 }
 
-td {
+.members-table__column {
 	display: inline-block;
 }
 
+.members-table__row {
+	text-align: center;
+}
+
 .members_name {
+	text-align: left;
 	font-size: 20px;
 }
 
 .members_job {
+	text-align: left;
 	font-size: 15px;
 }
 

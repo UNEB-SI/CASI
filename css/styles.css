@@ -265,6 +265,7 @@ a img{
   margin-top: 16px;
   display: block;
   z-index: 2;
+  color: #00d6a6;
 }
 
 .android-image-link {
@@ -342,11 +343,11 @@ a img{
 
 .android-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  color: #00d6a6 !important;
 }
 
   .android-link:hover {
-    color: #7cb342 !important;
+    color: #00d6a6 !important;
   }
 
   .android-link .material-icons {

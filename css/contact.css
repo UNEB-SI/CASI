@@ -43,7 +43,6 @@
 
 .contact-section {
   background-size: cover;
-  margin-left: -100px;
 }
 
 .contact-band {
@@ -53,9 +52,8 @@
 }
 
 .contact-band-text {
-  max-width: 800px;
   margin-left: 25%;
-  margin-right: 10%;
+  margin-right: 25%;
   padding: 24px;
   padding-bottom: 72px;
   text-align: left;

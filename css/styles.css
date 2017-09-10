@@ -59,12 +59,13 @@ a img{
 
 /*Home Section*/
 .img-home{
-  height: 550px;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
+
 .title-home{
   font-weight: bold;
-  font-size: 35px;
 }
 .subtitle-home{
   font-weight: bold;
@@ -264,6 +265,7 @@ a img{
   margin-top: 16px;
   display: block;
   z-index: 2;
+  color: #00d6a6;
 }
 
 .android-image-link {
@@ -341,11 +343,11 @@ a img{
 
 .android-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  color: #00d6a6 !important;
 }
 
   .android-link:hover {
-    color: #7cb342 !important;
+    color: #00d6a6 !important;
   }
 
   .android-link .material-icons {
@@ -440,38 +442,38 @@ a img{
     font-size: 16px;
   }
 
-.android-footer {
+.footer {
   background-color: #fafafa;
   position: relative;
 }
 
-  .android-footer a:hover {
-    color: #8bc34a;
+  .footer a:hover {
+    color: #00d6a6;
   }
 
-  .android-footer .mdl-mega-footer--top-section::after {
+  .footer .mdl-mega-footer--top-section::after {
     border-bottom: none;
   }
 
-  .android-footer .mdl-mega-footer--middle-section::after {
+  .footer .mdl-mega-footer--middle-section::after {
     border-bottom: none;
   }
 
-  .android-footer .mdl-mega-footer--bottom-section {
+  .footer .mdl-mega-footer--bottom-section {
     position: relative;
   }
 
-  .android-footer .mdl-mega-footer--bottom-section a {
+  .footer .mdl-mega-footer--bottom-section a {
     margin-right: 2em;
   }
 
-  .android-footer .mdl-mega-footer--right-section a .material-icons {
+  .footer .mdl-mega-footer--right-section a .material-icons {
     position: relative;
     top: 6px;
   }
 
 
-.android-link-menu:hover {
+.link-menu:hover {
   cursor: pointer;
 }
 
@@ -554,7 +556,7 @@ a img{
 }
 
 .teal {
-  background-color: #009688 !important;
+  background-color: #00d6a6 !important;
 }
 
 .grey {

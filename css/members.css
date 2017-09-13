@@ -6,7 +6,6 @@
 
 #members-table {
 	margin-top: 10px;
-	max-width: 870px;
 }
 
 .members-card-square.mdl-card {
@@ -52,6 +51,11 @@
 	opacity: 0%;
 }
 
+.members-card > .mdl-card__title {
+  	color: #fff;
+  	background-size: cover;
+}
+
 #members-jeferson > .mdl-card__title {
   	color: #fff;
   	background: url('../img/members/jeferson.jpg') #00d6a6;
@@ -61,6 +65,54 @@
 #members-mateus > .mdl-card__title {
   	color: #fff;
   	background: url('../img/members/mateus.jpg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-diego > .mdl-card__title {
+  	color: #fff;
+  	background: url('../img/members/diego.jpg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-ingrid > .mdl-card__title {
+  	color: #fff;
+  	background: url('../img/members/ingrid.jpg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-zezinho > .mdl-card__title {
+  	color: #fff;
+  	background: url('../img/members/zezinho.jpg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-ernesto > .mdl-card__title {
+  	color: #fff;
+  	background: url('../img/members/ernesto.jpg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-bete > .mdl-card__title {
+	color: #fff;
+  	background: url('../img/members/bete.jpg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-thiago > .mdl-card__title {
+	color: #fff;
+  	background: url('../img/members/thiago.jpeg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-marina > .mdl-card__title {
+	color: #fff;
+  	background: url('../img/members/marina.jpg') #00d6a6;
+  	background-size: cover;
+}
+
+#members-alex > .mdl-card__title {
+	color: #fff;
+  	background: url('../img/members/alex.jpg') #00d6a6;
   	background-size: cover;
 }
 

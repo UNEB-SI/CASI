@@ -1,12 +1,12 @@
-.android-drawer .mdl-layout-title {
+.drawer .mdl-layout-title {
     position: relative;
     background: #00d6a6;
     height: 160px;
 }
-.android-drawer span.mdl-navigation__link.mdl-navigation__link {
+.drawer span.mdl-navigation__link.mdl-navigation__link {
     color: #00d6a6;
 }
-.android-navigation .mdl-navigation__link:hover {
+.navigation .mdl-navigation__link:hover {
 	border-bottom: 4px solid #00d6a6;
 }
 

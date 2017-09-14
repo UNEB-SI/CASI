@@ -43,7 +43,7 @@
     <meta property="og:title" content="CASI UNEB" >
     <meta property="og:description" content="Colegiado do curso de Sistemas de informação - UNEB">
     <meta property="og:locale" content="pt_BR">
-    <!-- Android Header Color -->
+    <!-- Header Color -->
     <meta name="theme-color" content="#00d6a6">
     <!-- Favicons-->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/icons/favicons/apple-touch-icon-57x57.png" />
@@ -79,17 +79,17 @@
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <!-- Navbar -->
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+      <div class="header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
-          <span style="color: black;" class="android-title mdl-layout-title">
-             <a href=""><img class="android-logo-image" src="img/logo.png"></a>
+          <span style="color: black;" class="title mdl-layout-title">
+             <a href=""><img class="logo-image" src="img/logo.png"></a>
           </span>
-          <span class="android-mobile-title mdl-layout-title">
-            <a href=""><img class="android-logo-image"  src="img/logo.png"></a>
+          <span class="mobile-title mdl-layout-title">
+            <a href=""><img class="logo-image"  src="img/logo.png"></a>
           </span>
-          <div class="android-header-spacer mdl-layout-spacer"></div>
-          <div class="android-navigation-container">
-            <div class="android-navigation mdl-navigation">
+          <div class="header-spacer mdl-layout-spacer"></div>
+          <div class="navigation-container">
+            <div class="navigation mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#about-section">Quem somos</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#members-section">Membros</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#contact-section">Contato</a>
@@ -105,15 +105,15 @@
         <!--<li disabled class="mdl-menu__item">Twitter</li>
         <li disabled class="mdl-menu__item">Instagram</li>-->
       </ul>
-      <div class="android-drawer mdl-layout__drawer">
+      <div class="drawer mdl-layout__drawer">
         <span class="mdl-layout-title">
-          <img class="android-logo-image" src="img/logo_white.png">
+          <img class="logo-image" src="img/logo_white.png">
         </span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="#about-section">Quem somos</a>
           <a class="mdl-navigation__link" href="#members-section">Membros</a>
           <a class="mdl-navigation__link" href="#contact-section">Contato</a>
-          <div class="android-drawer-separator"></div>
+          <div class="drawer-separator"></div>
           <span class="mdl-navigation__link" href=""><b>Redes Sociais</b></span>
           <a class="mdl-navigation__link" href="https://www.facebook.com/casitecnologia" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
           <a class="mdl-navigation__link" href="https://www.flickr.com/photos/infouneb/" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i> Flickr</a>
@@ -124,7 +124,7 @@
       </div>
 
       <!-- Content -->
-      <div class="android-content mdl-layout__content">
+      <div class="content mdl-layout__content">
 
         <!-- Home -->
         <a name="top"></a>
@@ -165,6 +165,7 @@
           </div>
         </div>
         <!--/.Slides-->
+      </div>
       </div>
       <!--Controls-->
       <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
@@ -248,7 +249,7 @@
               </td>
               <!--Diego-->
               <td class="members-table__column">
-                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                <div id="members-diego" class="members-card-square mdl-card mdl-shadow--2dp">
                   <div class="mdl-card__title mdl-card--expand"></div>
                   <div class="mdl-card__supporting-text">
                     <hgroup>
@@ -416,7 +417,7 @@
               </td>
               <!--Ernesto-->
               <td class="members-table__column">
-                <div id="members-default" class="members-card-square mdl-card mdl-shadow--2dp">
+                <div id="members-ernesto" class="members-card-square mdl-card mdl-shadow--2dp">
                   <div class="mdl-card__title mdl-card--expand"></div>
                   <div class="mdl-card__supporting-text">
                     <hgroup>
@@ -496,14 +497,14 @@
 
         <!-- Footer -->
         <footer class="footer mdl-mega-footer">
-          <div class="mdl-mega-footer--top-section">
+          <!--<div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--right-section">
               <a class="mdl-typography--font-light" href="#top">
                 Voltar ao topo
                 <i class="material-icons">expand_less</i>
               </a>
             </div>
-          </div>
+          </div>-->
 
           <div class="mdl-mega-footer--middle-section">
             <p class="mdl-typography--font-light">Centro Acadêmico de Sistemas de Informação 2017 UNEB</p>
@@ -511,22 +512,21 @@
           </div>
 
           <div class="mdl-mega-footer--bottom-section">
-            <a class="android-link link-menu mdl-typography--font-light" id="developers-dropdown">
+            <a class="link link-menu mdl-typography--font-light" id="developers-dropdown">
               Desenvolvedores
               <i class="material-icons">arrow_drop_up</i>
             </a>
             <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
-              <li class="mdl-menu__item">Diego Malta</li>
-              <li class="mdl-menu__item">Kevin Oliveira</li>
-              <li class="mdl-menu__item">José Diôgo</li>
-              <li class="mdl-menu__item">Mateus Nascimento</li>
+              <li class="mdl-menu__item"><a target="_blank" href="https://github.com/DioHX">Diego Malta</a></li>
+              <li class="mdl-menu__item"><a target="_blank" href="https://github.com/kevinoliveira">Kevin Oliveira</a></li>
+              <li class="mdl-menu__item"><a target="_blank" href="https://github.com/juzejunior">José Diôgo</a></li>
+              <li class="mdl-menu__item"><a target="_blank" href="https://github.com/MNascimentoS">Mateus Nascimento</a></li>
             </ul>
-            <a class="android-link mdl-typography--font-light" href="doc/cartilha_estudante_2010.pdf">Cartilha do Estudante</a>
           </div>
         </footer>
       </div>
     </div>
-    <a href="#contact" target="_blank" id="contact-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect teal mdl-color-text--accent-contrast">Contato</a>
+    <a href="#contact-section" id="contact-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect teal mdl-color-text--accent-contrast">Contato</a>
     <div aria-live="assertive" aria-atomic="true" aria-relevant="text" class="mdl-snackbar mdl-js-snackbar">
       <div class="mdl-snackbar__text"></div>
       <button type="button" class="mdl-snackbar__action" style="display: none;"></button>

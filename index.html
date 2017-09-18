@@ -442,35 +442,35 @@
                 <form name="form" class="col s12">
                   <div class="row">
                     <div class="input-field col s6">
-                      <input id="nome" type="text" class="validate">
+                      <input id="nome" type="text" class="validate" required>
                       <label for="nome">Nome</label>
                     </div>
                     <div class="input-field col s6">
-                      <input id="matricula" type="number" class="validate">
+                      <input id="matricula" type="number" class="validate" required>
                       <label for="matricula">Matricula</label>
                     </div>
                   </div>
                   <div class="row">
                     <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
+                      <input id="email" type="email" class="validate" required>
                       <label for="email">Email</label>
                     </div>
                   </div>
                   <div class="row">
                     <div class="input-field col s12">
-                      <input id="assunto" type="text" class="validate">
+                      <input id="assunto" type="text" class="validate" required>
                       <label for="assunto">Assunto</label>
                     </div>
                   </div>
                   <div class="row">
                         <div class="input-field col s12">
-                          <textarea id="descricao" class="mat-textarea"></textarea>
+                          <textarea id="descricao" class="mat-textarea" required></textarea>
                           <label for="descricao">Descrição</label>
                         </div>
                   </div>
                   <div class="row right">
                     <input type="button" onclick="clearForm();" value="Limpar" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored grey margin5">
-                    <input type="button" onclick="sendForm();" value="Enviar" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored teal margin5">
+                    <input id="btn_enviar" type="button" onclick="sendForm();" value="Enviar" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored teal margin5">
                   </div>
                 </form>
               </div>
@@ -491,7 +491,7 @@
 
           <div class="mdl-mega-footer--middle-section">
             <p class="mdl-typography--font-light">Centro Acadêmico de Sistemas de Informação 2017 UNEB</p>
-            <p class="mdl-typography--font-light">Todos os direitos reservados.</p>
+            <p class="mdl-typography--font-light">Alguns direitos reservados.</p>
           </div>
 
           <div class="mdl-mega-footer--bottom-section">
@@ -517,6 +517,7 @@
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <!-- Script -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <!-- Bootstrap tooltips -->

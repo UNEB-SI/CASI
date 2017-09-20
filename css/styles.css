@@ -279,7 +279,7 @@ p {
 /**** Mobile layout ****/
 @media (max-width: 900px) {
   .slides {
-      height:42%;
+      height:100px;
   }
 
   .carousel-control-prev {

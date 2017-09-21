@@ -10,8 +10,8 @@
 
 .members-card-square.mdl-card {
 	width: 250px;
-  	height: 300px;
-  	margin: 15px;
+  height: 300px;
+  margin: 15px;
 }
 
 .members-table__column {
@@ -30,6 +30,26 @@
 .members_job {
 	text-align: left;
 	font-size: 15px;
+}
+
+@media (max-width: 900px) {
+  .members-title{
+    font-size: 32px;
+  }
+
+  .members-card-square.mdl-card {
+    width: 150px;
+    height: 300px;
+    margin: 5px;
+  }
+
+  .members_name {
+    font-size: 15px;
+  }
+
+  .members_job {
+    font-size: 12px;
+  }
 }
 
 .div {

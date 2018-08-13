@@ -6,7 +6,7 @@ const Footer = () => (
 
         <div className="footer">
                 <code>
-                        /* Made in 2018, with a thinkpad and free software */
+                        /* Made by Kevin Oliveira */
                 </code>
         </div>
 )

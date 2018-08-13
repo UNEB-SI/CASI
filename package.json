@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-typescript",
-  "description": "Gatsby TypeScript starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "CASI-website",
+  "description": "site do CASI",
+  "version": "0.0.1",
+  "author": "kevin Oliveira <kevin.oliveira@live.com>",
   "dependencies": {
     "@types/node": "^8.0.7",
     "@types/react": "15.0.21",
@@ -34,7 +34,6 @@
     "prettier": "^1.8.2"
   },
   "contributors": [
-    "fabien0102 <fabien0102@gmail.com>",
-    "Hays Clark <hays.clark@gmail.com>"
+    "kevin oliveira <kevin.oliveira@live.com>"
   ]
 }

@@ -1,10 +1,12 @@
 
-$color1: #234A56;
-$color2: #417D95;
+
+$color1: #02206A;
+$color2: #eef2fb;
 $color3: #89B9C5;
 $color4: #C1DEE2;
 $color5: #DDE7DC;
 $extra: #F34C56;
+
 
 
 
@@ -36,23 +38,29 @@ a{
     align-items: center;
     height: 100%;
     padding: 1rem;
-    border: 2px dotted $color1;
+    border-left: 5px solid grey;
     text-decoration: none;
     
-    // margin: 5px;
+    // border-bottom: 2px solid grey;
+
+    -webkit-box-shadow: 10px 10px 20px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 20px -15px rgba(0,0,0,1);
+    box-shadow: 10px 10px 20px -15px rgba(0,0,0,1);
+    // // margin: 5px;
 
     // border: 1px solid black;
-    border-radius: 5px;
-    // box-shadow: 2px 2px lightgray;
+    // border-radius: 5px;
+    // box-shadow: 2px 2px rgba(0,0,0,1);
     &:hover{
-        // box-shadow: 2px 2px grey;  
-        border: 2px solid $extra;
+        // box-shadow: 2px 2px grey;
+        // border: 2px solid $color1;
+        border-left: 5px solid $color1;
         .post-card-title{
-            color: $extra;
-            font-weight: bold;
+            color: $color1;
+            // font-weight: bold;
         }
         .post-card-date{
-            color: $extra;
+            color: $color1;
         }
     }
 

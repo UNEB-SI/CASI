@@ -25,14 +25,11 @@ export default class extends React.Component<IndexPageProps, {}> {
   public render() {
     return (
       <div>
-        <h1>Hi people</h1>
-        <h1>Hi people</h1>
-        <h1>Hi people</h1>
+        <h1>Hello world people</h1>
         <p>
-            This is my personal page and is under construction. and o only have 
-          <strong> {this.props.data.allMarkdownRemark.totalCount}</strong> blog post... what a shame.
+            esse site está em construção
         </p>
-        <Link to="/blog/">Go to Blog</Link>
+        {/* <Link to="/blog/">Go to Blog</Link> */}
       </div>
     )
   }

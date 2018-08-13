@@ -26,7 +26,7 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
     return (
       <div>
         <Helmet
-          title="Gatsby Default Starter"
+          title="CASI - Centro Acadêmico de Sistemas de Informação"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },

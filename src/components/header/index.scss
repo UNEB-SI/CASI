@@ -1,0 +1,169 @@
+
+// $color1: #E1331B;
+// $color2: #F85E28;
+// $color3: #CCFCEE;
+// $color4: #7BD1B8;
+// $color5: #3E6C61;
+
+$color1: #234A56;
+$color2: #417D95;
+$color3: #89B9C5;
+$color4: #C1DEE2;
+$color5: #DDE7DC;
+$extra: #F34C56;
+
+
+
+
+
+    @mixin no-user-select() {
+        outline: none;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome and Opera */
+    }
+
+    @mixin mark($bgcolor){
+        background-color: $bgcolor;
+        color: $color1;
+    }
+
+    @mixin hoverThing($bold: true){
+        @if $bold {
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        } @else {
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    @mixin flex($justify-content: center){
+        display: flex;
+        justify-content: $justify-content;
+        align-items: center;
+    }
+
+    @mixin capitalize(){
+        text-transform: capitalize;
+    }
+
+
+
+    .header{
+        display: inline-flex;
+        background-color: transparent;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1000px;
+        margin-bottom: 2rem;
+       
+        .title-wrapper{
+            display: flex;
+            align-items: flex-start;
+            font-size: 1.5rem;
+            a{
+                text-decoration: none;
+                color: whitesmoke;
+                @include no-user-select();
+                mark{
+                    @include mark(whitesmoke);
+                }
+                &:hover{
+                    @include hoverThing(false);
+                    mark{
+                        @include mark(white);
+                    }
+                }
+            }
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .nav-wrapper-desktop{
+                display: none !important;
+            }
+            .nav-wrapper-mobile{
+                display: flex !important;
+                flex-direction: column;
+
+                .nav-wrapper-mobile-menu{
+                    color: whitesmoke;
+                    cursor: pointer;
+                    margin: 0;
+                    height: 37px;
+                    @include capitalize();
+                    @include flex(flex-end);
+                    @include no-user-select();
+                    &:hover{
+                        @include hoverThing();
+
+                        mark{
+                            @include mark(white);
+                        }
+                    }
+                }
+
+                .nav-wrapper-mobile-itens-open{
+                    display: flex;
+                    flex-direction: column;
+
+                    a{
+                        @include flex(flex-end);
+                        @include no-user-select();
+                        @include capitalize();
+                        width: 100%;
+                        text-decoration: none;
+                        color: whitesmoke;
+                        mark{
+                            @include mark(whitesmoke);
+                        }
+                        &:hover{
+                            @include hoverThing();    
+                            mark{
+                                @include mark(white);
+                            }
+                        }
+                    }
+                }
+                .nav-wrapper-mobile-itens-close{
+                    display: none;
+                }
+            }
+        }
+        @media screen and (min-width: 600px) {
+            .nav-wrapper-desktop{
+                display: flex;
+                a{
+                    width: 100%;
+                    margin: 0 2px;
+                    padding: 0 10px;
+                    text-decoration: none;
+                    color: whitesmoke;
+
+                    @include flex(center);
+                    @include no-user-select();
+                    @include capitalize();
+                    mark{
+                        @include mark(whitesmoke);
+                    }
+
+                    &:hover{
+                        @include hoverThing();
+                        mark{
+                            @include mark(white);
+                        }
+                    }
+                }
+            }
+
+            .nav-wrapper-mobile{
+                display: none !important;
+            }
+        }
+    }

@@ -1,0 +1,25 @@
+
+
+$color1: #02206A;
+$color2: #eef2fb;
+$color3: #89B9C5;
+$color4: #C1DEE2;
+$color5: #DDE7DC;
+$extra: #F34C56;
+
+
+
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+    th{
+        border: 1px solid black;
+        background-color: $color1;
+        color: white;
+        font-weight: bold;
+    }
+    td{
+        border: 1px solid black;
+    }
+}

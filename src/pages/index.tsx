@@ -29,6 +29,7 @@ export default class extends React.Component<IndexPageProps, {}> {
         <p>
             esse site está em construção
         </p>
+        <img src="https://media.giphy.com/media/ZTans30ONaaIM/giphy.gif" style={{width: "100%",borderRadius: "5px"}} /> 
         {/* <Link to="/blog/">Go to Blog</Link> */}
       </div>
     )

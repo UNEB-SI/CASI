@@ -35,6 +35,7 @@ class Header extends React.Component<{}, State> {
 
         const menuItens = [
             {key:"blog" ,to: "/blog",title:"blog"},
+            {key:"teachers" ,to: "/teachers",title:"Profesores"},
             // {key:"/blog/test" ,to: "/blog/test",title:"test"},
             // {key:"/rss" ,to: "/rss",title:"rss"},
             {key:"contact" ,to: "/contact",title:"contact"},
